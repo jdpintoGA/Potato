@@ -1,3 +1,5 @@
+import Potato from "../Img/Potato.svg";
+
 let potatoes = 0;
 
 function countPotatoes() {
@@ -11,7 +13,7 @@ function ButtonComp() {
   return (
     <div>
       <button type="button" onClick={countPotatoes}>
-        "Click Me"
+        <img id="potato" src={Potato} alt="potato image" srcset="" />
       </button>
       <h1 id="potatoesId">{potatoes}</h1>
     </div>

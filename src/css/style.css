@@ -3,10 +3,26 @@ body {
   background-color: lightblue;
 }
 
-[id|="potato"] {
+/* div {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 60%;
+} */
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: 10px;
+  cursor: pointer;
+  appearance: none;
+  background-color: inherit;
+  transition: transform 0.7s ease-in-out;
+}
+button:hover {
+  transform: scale(1.05);
+}
+
+[id|="potato"] {
+  width: 150%;
   margin: auto;
 }
