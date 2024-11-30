@@ -1,0 +1,12 @@
+body {
+  color: yellow;
+  background-color: lightblue;
+}
+
+[id|="potato"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 60%;
+  margin: auto;
+}
